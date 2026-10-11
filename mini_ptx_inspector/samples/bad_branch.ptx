@@ -1,0 +1,6 @@
+.version 7.0
+.visible .entry bad_branch()
+{
+    @%p1 bra MISSING_LABEL;
+    ret;
+}
